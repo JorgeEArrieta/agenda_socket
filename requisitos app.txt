@@ -1,0 +1,31 @@
+Requisitos
+
+PRIMERA APP --> server.py
+
+SEGUNDA APP --> cliente.py
+
+1) 2 app Una con las funcionalidades
+
+   y la otra para comunicarme desde fuera de la
+
+   primera app (puede ser por consola)
+
+2) Realizado en python puro, tkinter o pyqt
+
+3) Patrón MVC
+
+4) POO
+
+5) Observador de eventos con (decorador o un Patrón Observer)
+
+   que registre en una tabla de log (la fecha, descripción, otro dato)
+
+6) La información enviada desde la app cliente de viajar como bytearray
+
+   conteniendo hexadecimales y la app "server" debe poder responderle.
+
+   https://docs.python.org/es/3/library/socket.html
+
+EXTRA
+
+Sustituir el registro de log por mail.
